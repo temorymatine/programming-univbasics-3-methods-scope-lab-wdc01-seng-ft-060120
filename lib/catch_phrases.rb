@@ -14,8 +14,8 @@ def link
   puts yup
 end
 
-def all_phrases("It's-a me, Mario!")
-  puts phrase
+def all_phrases(p="It's-a me, Mario!")
+  puts p
 end
 
 mario
