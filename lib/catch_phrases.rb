@@ -15,10 +15,10 @@ def link
 end
 
 def all_phrases
-  puts p
+  mario 
+  toadstool 
+  link
 end
 
-mario
-toadstool
-link 
 all_phrases
+
