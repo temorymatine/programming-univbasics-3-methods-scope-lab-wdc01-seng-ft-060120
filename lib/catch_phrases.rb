@@ -1,7 +1,7 @@
 def mario
   
-  @phrase = "It's-a me, Mario!\n"
-  puts @phrase
+  phrase = "It's-a me, Mario!\n"
+  puts phrase
 end
 
 def toadstool
@@ -14,8 +14,8 @@ def link
   puts yup
 end
 
-def all_phrases
-  puts @phrase
+def all_phrases("It's-a me, Mario!")
+  puts phrase
 end
 
 mario
