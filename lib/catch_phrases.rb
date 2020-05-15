@@ -1,6 +1,6 @@
 def mario
   
-  phrase = "It's-a me, Mario!\n"
+  @phrase = "It's-a me, Mario!\n"
   puts phrase
 end
 
@@ -15,7 +15,7 @@ def link
 end
 
 def all_phrases
-  puts phrase
+  puts @phrase
 end
 
 mario
