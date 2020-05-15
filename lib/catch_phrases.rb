@@ -1,7 +1,7 @@
 def mario
   
   @phrase = "It's-a me, Mario!\n"
-  puts phrase
+  puts @phrase
 end
 
 def toadstool
